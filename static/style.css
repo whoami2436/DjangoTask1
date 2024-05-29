@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+    color: white;
+    margin: 20px;
+}
+.articles ul li h3{
+    color: red;
+    list-style: decimal;
+} 
+
+.articles ul li p {
+    font-weight: bold;
+    position: relative;
+    right: 30%;
+    top: 20px;
+}
+

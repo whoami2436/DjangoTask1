@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block page__title %}Home page{% endblock page__title %}
+
+{% block body %}
+    <h1>Hello World</h1>
+    <div class="articles">
+        <h2>Articles:</h2>
+        <ul>
+
+            {% for article in articles %}
+                <li>
+                    <h3>
+                        {{article.Author}} {{article.Surname}}
+                    </h3>
+                    <h4>{{article.Title}}</h4>
+                    <p>{{article.Content}}</p>
+
+                </li>
+            {% endfor %}
+
+        </ul>
+
+    </div>
+{% endblock body %}
